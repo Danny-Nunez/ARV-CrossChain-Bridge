@@ -550,10 +550,9 @@ export default {
 }
 .wrapper {
   position: relative;
-  border-radius: 1rem;
-  border-color: #ab48e0;
-  border-style: none;
-  border-radius: 20px;
+  
+  border-color: 2px solid #ab48e0;
+  border-radius: 15px;
   /* box-shadow: 0 0 38px 8px #ab48e0; */
   position: relative;
   transform: translate(0);
