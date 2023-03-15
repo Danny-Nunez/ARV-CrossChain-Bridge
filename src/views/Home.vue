@@ -554,8 +554,8 @@ export default {
   padding-right: 14px;
   font-size: 11px;
 }
-.v-card {
-  margin-bottom: 10px;
+.v-card__text {
+  border-radius: 15px
 }
 .wrapper {
   position: relative;
@@ -565,7 +565,6 @@ export default {
   position: relative;
   transform: translate(0);
   transform-style: preserve-3d;
-  z-index: 8;
 }
 .wrapper:before {
   content: '';
@@ -601,6 +600,8 @@ export default {
 }
 .v-card {
   width: 530px;
+  margin-bottom: 10px;
+  border-radius: 10px;
 }
 
 .closebutton {
