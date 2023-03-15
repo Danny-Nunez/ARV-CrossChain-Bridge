@@ -526,6 +526,15 @@ export default {
 </script>
 
 <style scoped>
+.theme--dark.v-application {
+  background-color: #000;
+}
+.theme--dark.v-sheet {
+  background-color: #000;
+}
+.theme--dark.v-card {
+  background-color: #000;
+}
 .disclaimer{
   list-style-position: inside;
   text-align: left;
@@ -550,13 +559,13 @@ export default {
 }
 .wrapper {
   position: relative;
-  
   border-color: 2px solid #ab48e0;
   border-radius: 15px;
   /* box-shadow: 0 0 38px 8px #ab48e0; */
   position: relative;
   transform: translate(0);
   transform-style: preserve-3d;
+  z-index: 8;
 }
 .wrapper:before {
   content: '';
