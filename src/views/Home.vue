@@ -144,6 +144,16 @@
             dark
             >Swap</v-btn
           >
+          <div v-if="walletData">
+                <ul class="disclaimer">
+                  <span>💡 Reminder:</span>
+                  <li>Crosschain Fee is 0.00 %, Gas fee 0.00 ARV for your cross-chain transaction on destination chain</li>
+                  <li>Minimum Crosschain Amount is 45 ARV</li>
+                  <li>Maximum Crosschain Amount is 5,600,000 ARV</li>
+                  <li>Estimated Time of Crosschain Arrival is 10-30 min</li>
+                  <li>Crosschain amount larger than 1,200,000 ARV could take up to 12 hours</li>
+              </ul>
+              </div>
 
           <WalletOption v-else v-on:providerSelected="connect">
             <template v-slot:btn="{ on, attrs }">
@@ -295,6 +305,7 @@
                   dark
                   >Confirm</v-btn
                 >
+                
               </v-card-text>
             </v-card>
           </v-dialog>
@@ -553,6 +564,7 @@ export default {
   padding-left: 14px;
   padding-right: 14px;
   font-size: 11px;
+  border-radius: 15px
 }
 .v-card__text {
   border-radius: 15px
@@ -601,7 +613,7 @@ export default {
 .v-card {
   width: 530px;
   margin-bottom: 10px;
-  border-radius: 10px;
+  border-radius: 15px
 }
 
 .closebutton {
