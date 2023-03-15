@@ -1,0 +1,22 @@
+$material-light: (
+  'background':#b918f40D,
+  'app-bar': #ffffff,
+  'inputs': (
+      'box': #495463b3
+  ),
+  'text': (
+    'primary': #252c4b,
+    'secondary': #737789
+  ),
+  'text-fields': (
+    'outlined': #d2dde9,
+    'outlined-hover': #d2dde9
+  ),
+);
+
+$material-dark: (
+  'navigation-drawer': #272727
+);
+$text-field-outlined-fieldset-border-width: 1px !important;
+$input-font-size: 1em !important;
+$label-font-size: 1em !important;

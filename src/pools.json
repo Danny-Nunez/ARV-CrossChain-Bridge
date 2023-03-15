@@ -1,0 +1,119 @@
+{
+    "1": {
+        "name": "Artemis Vision",
+        "symbol": "ARV",
+        "decimals": 18,
+        "logoUrl": "https://artemisvision.io/artemisetherlogov2x500px.png",
+        "chainId": "1",
+        "address": "0x28fda76721a8077a5de802ab0212849b8c38429e",
+        "underlying": false,
+        "destChains": {
+            "56": {
+                "pairid": "ARVv5",
+                "address": "0x7f295cbaae4ee39e723e1a4bdeb0ce7a381e56a9",
+                "name": "Artemis Vision",
+                "symbol": "ARV",
+                "decimals": 18,
+                "BigValueThreshold": 1200000,
+                "MaximumSwap": 5600000,
+                "MaximumSwapFee": 0,
+                "MinimumSwap": 45,
+                "MinimumSwapFee": 0,
+                "SwapFeeRatePerMillion": 0,
+                "BaseFeePercent": 0,
+                "DepositAddress": "0x533e3c0e6b48010873B947bddC4721b1bDFF9648",
+                "swapfeeon": 1,
+                "type": "swapin",
+                "liquidityType": "INIT",
+                "isDisabled": false,
+                "underlying": false
+            },
+            "137": {
+
+                "pairid": "ARVv5",
+                "address": "0xe5130d3dbfac6ae7d73a24d719762df74d8e4c27",
+                "name": "Artemis Vision",
+                "symbol": "ARV",
+                "decimals": 18,
+                "BigValueThreshold": 1000000,
+                "MaximumSwap": 2650719.935534491,
+                "MaximumSwapFee": 0,
+                "MinimumSwap": 42.41151896855186,
+                "MinimumSwapFee": 0,
+                "SwapFeeRatePerMillion": 0,
+                "BaseFeePercent": 0,
+                "DepositAddress": "0x668b9734FfE9eE8a01d4Ade3362De71E8989EA87",
+                "swapfeeon": 1,
+                "type": "swapin",
+                "liquidityType": "INIT",
+                "isDisabled": false,
+                "underlying": false
+
+            }
+        }
+    },
+    "56": {
+        "name": "Artemis Vision",
+        "symbol": "ARV",
+        "decimals": 18,
+        "logoUrl": "https://artemisvision.io/artemisetherlogov2x500px.png",
+        "chainId": "56",
+        "address": "0x7f295cbaae4ee39e723e1a4bdeb0ce7a381e56a9",
+        "underlying": false,
+        "destChains": {
+            "1": {
+
+                "pairid": "ARVv5",
+                "address": "0x28fda76721a8077a5de802ab0212849b8c38429e",
+                "name": "Artemis Vision",
+                "symbol": "ARV",
+                "decimals": 18,
+                "BigValueThreshold": 1200000,
+                "MaximumSwap": 5600000,
+                "MaximumSwapFee": "2224",
+                "MinimumSwap": 223,
+                "MinimumSwapFee": "90",
+                "SwapFeeRatePerMillion": 0.1,
+                "BaseFeePercent": 100,
+                "DepositAddress": "0x533e3c0e6b48010873B947bddC4721b1bDFF9648",
+                "swapfeeon": 1,
+                "type": "swapout",
+                "liquidityType": "INIT",
+                "isDisabled": false
+
+            }
+        }
+    },
+    "137": {
+        "name": "Artemis Vision",
+        "symbol": "ARV",
+        "decimals": 18,
+        "logoUrl": "https://artemisvision.io/artemisetherlogov2x500px.png",
+        "chainId": "137",
+        "address": "0xe5130d3dbfac6ae7d73a24d719762df74d8e4c27",
+        "underlying": false,
+        "destChains": {
+            "1": {
+
+                "pairid": "ARVv5",
+                "address": "0x28fda76721a8077a5de802ab0212849b8c38429e",
+                "name": "Artemis Vision",
+                "symbol": "ARV",
+                "decimals": 18,
+                "BigValueThreshold": 1000000,
+                "MaximumSwap": 2650719.935534491,
+                "MaximumSwapFee": 530.1439871068983,
+                "MinimumSwap": 106.02879742137965,
+                "MinimumSwapFee": 42.41151896855186,
+                "SwapFeeRatePerMillion": 0.1,
+                "BaseFeePercent": 0,
+                "DepositAddress": "0x668b9734FfE9eE8a01d4Ade3362De71E8989EA87",
+                "swapfeeon": 1,
+                "type": "swapout",
+                "liquidityType": "INIT",
+                "isDisabled": false
+
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+
+{
+    "1": {
+        "id": 1,
+        "label": "Ethereum Mainnet",
+        "address": {
+        },
+        "currency": "ETH",
+        "icon": "images/arvethicon.png",
+        "rpcUrl": "https://mainnet.infura.io/v3",
+        "blockExplorerUrls": "https://etherscan.io"
+    },
+    "56": {
+        "id": 56,
+        "label": "Binance Smart Chain Mainnet",
+        "address": {
+        },
+        "icon": "images/arvbnbicon.png",
+        "currency": "BNB",
+        "currency_icon": "images/arvbnbicon.png",
+        "rpcUrl": "https://bscnode1.anyswap.exchange",
+        "blockExplorerUrls": "https://bscscan.com"
+    }
+}

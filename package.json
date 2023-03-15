@@ -1,0 +1,75 @@
+{
+  "name": "artemisvision",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "export NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@mdi/font": "^5.9.55",
+    "@toruslabs/torus-embed": "^1.22.6",
+    "@walletconnect/web3-provider": "^1.7.7",
+    "axios": "^0.21.1",
+    "axios-cache-adapter": "^2.7.3",
+    "babel-polyfill": "6.26.0",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-es2015": "6.24.1",
+    "babel-preset-stage-2": "6.24.1",
+    "babel-preset-stage-3": "6.24.1",
+    "babel-register": "6.26.0",
+    "chai": "4.2.0",
+    "chai-as-promised": "7.1.1",
+    "chai-bignumber": "3.0.0",
+    "core-js": "^3.6.5",
+    "firebase": "^9.8.1",
+    "postcss-import": "^12.0.1",
+    "solc": "^0.8.2",
+    "truffle": "^5.4.2",
+    "truffle-flattener": "^1.5.0",
+    "vue": "^2.7.14",
+    "vue-observe-visibility": "^1.0.0",
+    "vue-router": "^3.5.2",
+    "vue-server-renderer": "^2.7.14",
+    "vuetify": "^2.6.0",
+    "vuex": "^3.6.2",
+    "web3": "1.7.3"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^3.0.0",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "autoprefixer": "^9.8.8",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "postcss": "^7.0.39",
+    "sass": "~1.32.0",
+    "sass-loader": "^10.0.0",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17",
+    "vue-cli-plugin-vuetify": "~2.4.7",
+    "vue-template-compiler": "^2.7.14",
+    "vuetify-loader": "^1.7.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
