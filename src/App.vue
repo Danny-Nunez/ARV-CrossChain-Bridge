@@ -95,17 +95,18 @@ export default {
   
 }
 .darkbutwrap {
-  width: 500px;
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
+  padding-left: 440px;
+  margin-top: 30px;
+  margin-bottom: -60px;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  z-index: 5;
 }
 .darkmodebutton {
   padding-top: 12px;
   z-index: 3;
-  margin-bottom: -60px;
-  margin-left: -10px;
+  position: relative;
   cursor: pointer;
 }
 .moon-icon {
@@ -125,6 +126,9 @@ export default {
   transition: all 0.5s ease;
 }
 @media screen and (max-width: 540px) {
+.darkbutwrap {
+  padding-left: 290px;
+}
 .darkmodebutton {
   padding-left: 12px;
   margin-left: 0px;
