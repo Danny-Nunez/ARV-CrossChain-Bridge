@@ -1,5 +1,5 @@
 <template>
-  <div class="wrapper">
+  <div class="wrappercontainer">
     <v-app :dark="darkMode">
      <div class="darkbutwrap"> 
        <button class="darkmodebutton" @click="toggleDarkMode">
@@ -92,7 +92,6 @@ export default {
 <style>
 .wrapper {
   margin: auto;
-  
 }
 .darkbutwrap {
   padding-left: 440px;

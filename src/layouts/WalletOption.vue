@@ -37,7 +37,7 @@
 <script>
 import image1 from '../assets/torus-logo.png';
 import image2 from '../assets/metamask-logo.png';
-import image3 from '../assets/walletconnect.webp';
+import image3 from '../assets/walletconnect.png';
 
 export default {
   name: "WalletOption",
